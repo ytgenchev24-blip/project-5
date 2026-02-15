@@ -4,10 +4,10 @@ st.write("Моля попълнете полетата по-долу")
 
 st.write("Как се казваш")
 name = st.text_input("Въведи първото си име")
-surname = st.text_input("Въведи фамилията си")
+
 
 if name:
-  st.write("Добре дошъл ,", name surname)
+  st.write("Добре дошъл ,", name)
 
 answer = st.radio("Интересен ли ти е предмета Изкуствен интелект ?", ("да"/"не"))
 if answer == "да":
